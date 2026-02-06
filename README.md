@@ -1,5 +1,9 @@
-# base-aulas-frontend
+# React + Vite
 
-Este repositório serve como base para as aulas de Frontend iniciais do SENAC.
+fui no github criei um repo da seguinte forma
 
-O material será dividido em branchs, elas serão enumeradas para melhor ordenação nos estudos. E cada branch irá trazer um novo conceito, evoluindo o código da branch anterior.
+clonei o repo
+
+DESCREVA TODO O PROCESSO (=
+
+projeto criado com sucesso
