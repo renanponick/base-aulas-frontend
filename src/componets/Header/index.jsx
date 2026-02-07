@@ -1,11 +1,24 @@
-import './style.css'
+import { Link } from "react-router-dom";
+import "./style.css";
 
-function Header() {
-    return (
-        <header>
-            <h1>Minha primeira página em React</h1>
-        </header>
-    )
+export default function Header() {
+  return (
+    <header className="header">
+      <h1>Minha página React</h1>
+
+      <nav>
+        <ul>
+          <li>
+            <Link to="/">Início</Link>
+          </li>
+          <li>
+            <Link to="/signup">Cadastro</Link>
+          </li>
+          <li>
+            <Link to="/about">Sobre</Link>
+          </li>
+        </ul>
+      </nav>
+    </header>
+  );
 }
-
-export default Header
