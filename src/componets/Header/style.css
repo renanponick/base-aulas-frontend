@@ -1,1 +1,18 @@
-/* CRIAR O ESTILO DO HEADER AQUI */
+.header {
+  height: 70px;
+  padding: 0 32px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: #0f172a; /* azul escuro */
+  color: #ffffff;
+
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.header h1 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
